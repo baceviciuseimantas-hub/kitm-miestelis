@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalėdinis JS Miestelis</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-index">
+
+  <header class="header glass">
+    <h1>🎄 JavaScript Miestelis 🎄</h1>
+    <p>Spalvotas kalėdinis žemėlapis su 15 pin’ų.</p>
+  </header>
+
+  <main class="container">
+    <section class="map glass" id="map" aria-label="Miestelio žemėlapis">
+      <!-- Dekoracijos -->
+      <div class="garland" aria-hidden="true"></div>
+      <div class="snowOverlay" aria-hidden="true"></div>
+
+      <div class="park" aria-hidden="true"></div>
+      <div class="lake" aria-hidden="true"></div>
+
+      <!-- Namai -->
+    <div class="house h1" style="left:10%; top:14%;"></div>
+    <div class="house h2" style="left:34%; top:18%;"></div>
+    <div class="house h3" style="left:62%; top:16%;"></div>
+    <div class="house h4" style="left:72%; top:54%;"></div>
+    <div class="house h5" style="left:38%; top:62%;"></div>
+
+      <!-- 15 pinai -->
+      <button class="pin" data-id="1" style="top:10%;left:10%"  aria-label="Pin 1">1</button>
+      <button class="pin" data-id="2" style="top:25%;left:30%"  aria-label="Pin 2">2</button>
+      <button class="pin" data-id="3" style="top:40%;left:15%"  aria-label="Pin 3">3</button>
+      <button class="pin" data-id="4" style="top:55%;left:35%"  aria-label="Pin 4">4</button>
+      <button class="pin" data-id="5" style="top:70%;left:20%"  aria-label="Pin 5">5</button>
+
+      <button class="pin" data-id="6" style="top:15%;left:55%"  aria-label="Pin 6">6</button>
+      <button class="pin" data-id="7" style="top:30%;left:70%"  aria-label="Pin 7">7</button>
+      <button class="pin" data-id="8" style="top:45%;left:60%"  aria-label="Pin 8">8</button>
+      <button class="pin" data-id="9" style="top:60%;left:80%"  aria-label="Pin 9">9</button>
+      <button class="pin" data-id="10" style="top:75%;left:65%" aria-label="Pin 10">10</button>
+
+      <button class="pin" data-id="11" style="top:20%;left:45%" aria-label="Pin 11">11</button>
+      <button class="pin" data-id="12" style="top:35%;left:50%" aria-label="Pin 12">12</button>
+      <button class="pin" data-id="13" style="top:50%;left:45%" aria-label="Pin 13">13</button>
+      <button class="pin" data-id="14" style="top:65%;left:50%" aria-label="Pin 14">14</button>
+      <button class="pin" data-id="15" style="top:80%;left:45%" aria-label="Pin 15">15</button>
+    </section>
+
+    <div class="legend glass">
+      ❄️ paspausk bet kurį pin’ą ir atsidarys atskira scena su klausimu. 🎁
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

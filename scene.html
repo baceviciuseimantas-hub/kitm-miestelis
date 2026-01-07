@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalėdinė scena</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-scene">
+
+<main class="scene-wrap">
+  <section class="card glass">
+
+    <div class="asker">
+      <img id="askerImg" alt="Klausėjas"
+           onerror="this.remove(); this.parentElement.textContent='🙂';">
+    </div>
+
+    <div class="asker-name" id="askerName"></div>
+
+    <h2 class="question" id="question"></h2>
+
+    <div class="answers" id="answers"></div>
+    <div class="result" id="result"></div>
+
+    <button class="btn secondary" onclick="location.href='index.html'">
+      ← Grįžti į miestelį
+    </button>
+
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
